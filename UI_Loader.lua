@@ -4,9 +4,7 @@ local Notification_Library = loadstring(game:HttpGet("https://pastebin.com/raw/g
 local Notification = Notification_Library.Notify
 local Place_ID = game.GameId
 local Place_List = {
-    [1701332290] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub/main/Scripts/Field_Trip_Z.lua'))()",
-    [994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub/main/Scripts/Blox_Fruit.lua'))()",
-    [93740418] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub/main/Scripts/Hide_and_Seek_Extreme.lua'))()",
+    [994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub-Scripts/main/Scripts/Blox_Fruit.lua'))()",
 }
 local Whitelist_Private_Checked = 1
 local Whitelist_Checked
