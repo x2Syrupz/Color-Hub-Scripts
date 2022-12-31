@@ -5,6 +5,7 @@ local Notification = Notification_Library.Notify
 local Place_ID = game.GameId
 local Place_List = {
     [994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub-Scripts/main/Scripts/Blox_Fruit.lua'))()",
+    [66654135] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Syrupz/Color-Hub-Scripts/main/Scripts/Murder_Mystery_2.lua'))()",
 }
 local Whitelist_Private_Checked = 1
 local Whitelist_Checked
