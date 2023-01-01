@@ -11,7 +11,7 @@ local Whitelist_Private_Checked = 1
 local Whitelist_Checked
 for i,v in pairs(Keys_List) do
     if Whitelist_Private_Checked == #Keys_List and not Place_List[game.GameId] then
-    Keys_List = nil
+    Keys_List = ""
     Instance.new("Sound", game:GetService("SoundService")).SoundId = "rbxassetid://9128519965" game:GetService("SoundService").Sound:Play()
     Notification({Title = "Syrup's Notification Service",Description = "Invalid Key / Place not Supported.",Duration = 3})
     else
